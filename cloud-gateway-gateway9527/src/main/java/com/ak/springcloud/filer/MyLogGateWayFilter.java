@@ -32,6 +32,7 @@ public class MyLogGateWayFilter implements GlobalFilter, Ordered {
     public int getOrder() {
         System.out.println("helli,AK");
         System.out.println("777");
+        System.out.println("888");
         return 0;
     }
 }
